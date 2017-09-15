@@ -19,7 +19,11 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "../node_modules/admin-lte/bootstrap/css/bootstrap.css",
+        "../node_modules/admin-lte/dist/css/AdminLTE.css",
+        "../node_modules/admin-lte/dist/css/skins/_all-skins.css",
+        "../node_modules/admin-lte/plugins/pace/pace.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
